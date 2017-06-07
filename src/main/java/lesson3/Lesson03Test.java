@@ -1,7 +1,5 @@
-package lesson03;
+package lesson3;
 
-import java.util.Arrays;
-import java.util.List;
 import org.junit.Test;
 
 public class Lesson03Test {

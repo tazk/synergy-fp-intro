@@ -1,11 +1,11 @@
-package lesson01;
+package lesson1;
 
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import static lesson01.Lesson01.concatenator;
-import static lesson01.Lesson01.upperCaser;
+import static lesson1.Lesson01.concatenator;
+import static lesson1.Lesson01.upperCaser;
 
 public class Lesson01Test {
     @Test

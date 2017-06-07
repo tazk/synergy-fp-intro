@@ -1,13 +1,13 @@
-package lesson02;
+package lesson2;
 
 import java.util.function.Function;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static lesson01.Lesson01.upperCaser;
-import static lesson02.Lesson02.concat;
-import static lesson02.Lesson02.hooray;
-import static lesson02.Lesson02.repeat;
+import static lesson1.Lesson01.upperCaser;
+import static lesson2.Lesson02.concat;
+import static lesson2.Lesson02.hooray;
+import static lesson2.Lesson02.repeat;
 
 public class Lesson02Test {
     @Test

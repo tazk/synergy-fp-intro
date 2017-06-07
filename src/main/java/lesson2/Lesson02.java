@@ -1,4 +1,4 @@
-package lesson02;
+package lesson2;
 
 import java.util.function.Function;
 import function.Function2;

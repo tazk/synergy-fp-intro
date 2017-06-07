@@ -1,7 +1,6 @@
-package lesson03;
+package lesson3;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.function.Function;
 import function.Function2;
