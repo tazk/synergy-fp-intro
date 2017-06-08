@@ -31,8 +31,11 @@ public class Lesson5 {
             final U mappedHead = f.apply(xs.get(0));
             final List<U> mappedTail = mapRecursive(f, tail);
             final List<U> result = new ArrayList<>(n);
-            // TODO
-            throw new NoSuchMethodError("mapRecursive");
+            result.add(mappedHead);
+            result.addAll(mappedTail);
+            return result;
+            // ???
+            // throw new NoSuchMethodError("mapRecursive");
         }
     }
 
@@ -51,8 +54,13 @@ public class Lesson5 {
             final Boolean filtered = f.apply(head);
             final List<T> filteredTail = filterRecursive(f, tail);
             final List<T> result = new ArrayList<>(n);
+            if (filtered) {
+                result.add(head);
+            }
+            result.addAll(filteredTail);
+            return result;
             // TODO
-            throw new NoSuchMethodError("filterRecursive");
+            // throw new NoSuchMethodError("filterRecursive");
         }
     }
 }
