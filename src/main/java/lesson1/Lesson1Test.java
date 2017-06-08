@@ -4,10 +4,10 @@ package lesson1;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static lesson1.Lesson01.concatenator;
-import static lesson1.Lesson01.upperCaser;
+import static lesson1.Lesson1.concatenator;
+import static lesson1.Lesson1.upperCaser;
 
-public class Lesson01Test {
+public class Lesson1Test {
     @Test
     public void testUpperCaser() {
         Assert.assertEquals(upperCaser.apply(""), "");

@@ -9,13 +9,13 @@ import function.Function2;
 /**
  * Recursion!
  */
-public class Lesson05 {
+public class Lesson5 {
 
     public static final Function2<Function<String, Boolean>, List<String>, List<String>>
-        filter = Lesson05::filterRecursive;
+        filter = Lesson5::filterRecursive;
 
     public static final Function2<Function<Integer, Integer>, List<Integer>, List<Integer>>
-        map = Lesson05::mapRecursive;
+        map = Lesson5::mapRecursive;
 
     /**
      * TODO: implement this mapRecursive function using recursion.
@@ -31,7 +31,7 @@ public class Lesson05 {
             final U mappedHead = f.apply(xs.get(0));
             final List<U> mappedTail = mapRecursive(f, tail);
             final List<U> result = new ArrayList<>(n);
-            // ???
+            // TODO
             throw new NoSuchMethodError("mapRecursive");
         }
     }
