@@ -20,9 +20,6 @@ public class Lesson3 {
             throw new NoSuchMethodError("mapLoop");
         };
 
-    public static final Function<Integer, Integer>
-        doubleIt = x -> x * 2;
-
     public static final Function<List<Integer>, List<Integer>>
-        doubleAll = xs -> map.apply(doubleIt, xs);
+        doubleAll = xs -> map.apply(x -> x * 2, xs);
 }
