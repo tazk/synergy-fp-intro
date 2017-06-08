@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: lesson3.Lesson3Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in lesson3.Lesson3Test
+test(lesson3.Lesson3Test)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: mapLoop
+	at lesson3.Lesson3Test.test(Lesson3Test.java:15)
+

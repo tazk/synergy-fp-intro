@@ -28,11 +28,12 @@ public class Lesson5 {
         } else {
             final int n = xs.size();
             final List<T> tail = xs.subList(1, n);
-            final U mappedHead = f.apply(xs.get(0));
             final List<U> mappedTail = mapRecursive(f, tail);
+            final U mappedHead = f.apply(xs.get(0));
             final List<U> result = new ArrayList<>(n);
-            // TODO
-            throw new NoSuchMethodError("mapRecursive");
+            result.add(mappedHead);
+            result.addAll(mappedTail);
+            return result;
         }
     }
 

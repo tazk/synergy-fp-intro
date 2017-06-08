@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: lesson4.Lesson4Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in lesson4.Lesson4Test
+testFilter(lesson4.Lesson4Test)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: filter
+	at lesson4.Lesson4Test.testFilter(Lesson4Test.java:21)
+

@@ -13,15 +13,17 @@ public class Lesson1 {
     /**
      * TODO: Write a function that takes an input string and returns it uppercased.
      */
-    public static final Function<String, String> upperCaser = str -> {
-        throw new NoSuchMethodError("upperCaser");
-    };
+    public static final Function<String, String> upperCaser = String::toUpperCase;
 
     /**
      * TODO: Write a function that takes a string and number and returns concatenated string
      */
     public static final Function2<String, Integer, String> concatenator = (str, n) -> {
-        throw new NoSuchMethodError("concatenator");
+        StringBuilder ret = new StringBuilder();
+        for (Integer i = 0; i < n; i++) {
+            ret.append(str);
+        }
+        return ret.toString();
     };
 
     /**
